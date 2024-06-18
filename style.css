@@ -4,7 +4,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
-    background-color: #c3fdee;
+    background-color: #79f2d2;
   }
   
   a {
@@ -32,7 +32,7 @@ body {
   #main {
     margin-top: 50px;
   }
-  * Header*/
+  /* Header*/
   .titre {
     display: flex;
     justify-content: center;
