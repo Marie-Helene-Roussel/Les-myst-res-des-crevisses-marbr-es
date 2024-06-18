@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    background-color: #c3fdee;
+  }
+  
+  a {
+    color: #34b7a7;
+    text-decoration: none;
+    transition: transform 300ms ease-in-out;
+  }
+  
+  a:hover {
+    color: #453cbf;
+    text-decoration: none;
+    transform: scale(1.2);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", cursive;
+  }
+  
+  
+  #main {
+    margin-top: 50px;
+  }
+  * Header*/
+  .titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 550ms ease-in-out;
+  }
+  .titre :hover {
+    transform: scale(1.2);
+    color: #453cbf;
+  }
+    
