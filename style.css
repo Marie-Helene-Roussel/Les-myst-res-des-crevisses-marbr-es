@@ -4,19 +4,10 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
-    background-color: #79f2d2;
-  }
-  
-  a {
-    color: #34b7a7;
-    text-decoration: none;
-    transition: transform 300ms ease-in-out;
-  }
-  
-  a:hover {
-    color: #453cbf;
-    text-decoration: none;
-    transform: scale(1.2);
+    background-image: url("../ecrevisse/img/ecrevisse1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   h1,
@@ -37,10 +28,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 550ms ease-in-out;
+    color: rgb(50, 50, 245);
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: aqua;
   }
-  .titre :hover {
-    transform: scale(1.2);
-    color: #453cbf;
-  }
-    
+ /* l'introduction du site avec le message de bienvenue*/
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  border: #4338e5 2px solid;
+  border-radius: 10px;
+  box-shadow: 6px 6px 25px rgba(0, 39, 72, 0.5);
+  background-color: #74e5ba;
+}
+.introduction h2 {
+  font-size: 1.5em;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 6px 6px 25px rgba(0, 39, 72, 0.5);
+  border-radius: 25px;
+}
+.introduction p {
+  font-size: 1.3em;
+  padding-left: 10%;
+  padding-right: 1%;
+}
+.introduction img{
+  border-radius: 60px;
+  width: 85%;
+}
